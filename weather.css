@@ -1,0 +1,40 @@
+.heading{
+    text-align: center;
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.box{
+    height: 60px;
+    width: 400px;
+    background-color: brown;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 6px;
+}
+input{
+    height: 30px;
+    width: 250px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: palevioletred;
+}
+input::placeholder{
+     font-size: 20px;
+     font-family: 'Times New Roman', Times, serif;
+     color:white;
+     text-align: center;
+}
+.enter{
+    margin: auto;
+    height: 30px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}
+table{
+     margin: auto;
+}
